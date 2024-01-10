@@ -60,7 +60,7 @@ To run All-Ed locally, follow these steps:
 
 To access the admin panel, use the following credentials:
 
-- **Username:** admin
+- **Username:** mdwaseel
 - **Password:** 1234
 
 ## Contribution
