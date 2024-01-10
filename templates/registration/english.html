@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>mentorship Form</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-900/80">
+    <!-- Main modal -->
+<div id="english-classes-terms-modal" data-modal-show="true" aria-hidden="true" class="hidden overflow-x-hidden overflow-y-auto fixed h-modal md:h-full top-4 left-0 right-0 md:inset-0 z-50 justify-center items-center">
+    <div class="relative w-full max-w-2xl px-4 h-full md:h-auto">
+        <!-- Modal content -->
+        <div class="bg-white rounded-lg shadow relative dark:bg-gray-700">
+            <!-- Modal header -->
+            <div class="flex items-start justify-between p-5 border-b rounded-t dark:border-gray-600">
+                <h3 class="text-gray-900 text-xl lg:text-2xl font-semibold dark:text-white">
+                    English Classes Terms and Conditions
+                </h3>
+                <button type="button" class="text-gray-400 bg-transparent hover:bg-gray-200 hover:text-gray-900 rounded-lg text-sm p-1.5 ml-auto inline-flex items-center dark:hover:bg-gray-600 dark:hover:text-white" data-modal-toggle="english-classes-terms-modal">
+                    <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M4.293 4.293a1 1 0 011.414 0L10 8.586l4.293-4.293a1 1 0 111.414 1.414L11.414 10l4.293 4.293a1 1 0 01-1.414 1.414L10 11.414l-4.293 4.293a1 1 0 01-1.414-1.414L8.586 10 4.293 5.707a1 1 0 010-1.414z" clip-rule="evenodd"></path></svg>  
+                </button>
+            </div>
+            <!-- Modal body -->
+            <div class="p-6 space-y-6">
+                <p class="text-gray-500 text-base leading-relaxed dark:text-gray-400">
+                    By proceeding with the English classes registration, you agree to the following terms and conditions:
+                </p>
+                <ol class="list-decimal list-inside text-gray-500 dark:text-gray-400">
+                    <li>
+                        All information provided in the registration form must be accurate and truthful.
+                    </li>
+                    <li>
+                        The English classes are subject to availability, and meeting the registration criteria does not guarantee placement.
+                    </li>
+                    <li>
+                        Participants may be required to undergo an English proficiency test.
+                    </li>
+                    <li>
+                        The decision of the English classes committee is final and binding.
+                    </li>
+                    <li>
+                        Incomplete or fraudulent registrations will be disqualified.
+                    </li>
+                </ol>
+            </div>
+            <!-- Modal footer -->
+            <div class="flex space-x-2 items-center p-6 border-t border-gray-200 rounded-b dark:border-gray-600">
+                <button data-modal-toggle="english-classes-terms-modal" type="button" class="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
+                    I accept
+                </button>
+               
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Trigger button -->
+
+<script src="https://unpkg.com/flowbite@1.4.4/dist/flowbite.js"></script>
+
+    <header>
+        <input type="checkbox" name="hbr" id="hbr" class="hbr peer" hidden aria-hidden="true">
+        <nav class="fixed z-20 w-full bg-white/90 dark:bg-gray-900/80 backdrop-blur navbar shadow-2xl shadow-gray-600/5 border-b border-gray-100 dark:border-gray-800 peer-checked:navbar-active dark:shadow-none">
+            <div class="xl:container m-auto px-6 md:px-12 lg:px-6">
+                <div class="flex flex-wrap items-center justify-between gap-6 md:py-3 md:gap-0 lg:py-5">
+                    <div class="w-full items-center flex justify-between lg:w-auto">
+                        <a class="relative z-10" href="#" aria-label="logo">
+                            <svg class="h-9 text-[#007FEC] dark:text-[#00B1FD]" viewBox="0 0 942 272" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <!-- Your SVG content here -->
+                                <circle cx="126.5" cy="135.5" r="49" stroke="none" stroke-width="11" fill="currentColor"/>
+                                <path fill-rule="evenodd" clip-rule="evenodd" d="M157.616 38.7183C137.547 27.9866 113.297 28.3356 93.5 39.7654L60.0914 59.0538C39.6709 70.8436 27.0914 92.632 27.0914 116.212V154.788C27.0914 178.368 39.6709 200.156 60.0914 211.946L93.5 231.235C113.92 243.024 139.08 243.024 159.5 231.235L192.909 211.946C213.329 200.156 225.909 178.368 225.909 154.788V116.212C225.909 99.106 219.289 82.9431 207.857 70.8562C214.603 65.9281 219.348 58.424 220.644 49.7914C239.072 66.6422 249.909 90.6554 249.909 116.212V154.788C249.909 186.942 232.755 216.654 204.909 232.731L171.5 252.019C143.654 268.096 109.346 268.096 81.5 252.019L48.0914 232.731C20.2453 216.654 3.09137 186.942 3.09137 154.788V116.212C3.09137 84.0576 20.2453 54.3462 48.0914 38.2692L81.5 18.9808C109.138 3.02371 143.143 2.90471 170.876 18.6237C164.141 23.2603 159.27 30.4096 157.616 38.7183Z" fill="currentColor"/>
+                                <circle cx="189" cy="45" r="21" fill="currentColor"/>
+                            </svg>
+                        </a>
+                        <label for="hbr" class="peer-checked:hamburger block relative z-20 p-6 -mr-6 cursor-pointer lg:hidden">
+                            <div aria-hidden="true" class="m-auto h-0.5 w-5 rounded bg-gray-900 dark:bg-gray-300 transition duration-300"></div>
+                            <div aria-hidden="true" class="m-auto mt-2 h-0.5 w-5 rounded bg-gray-900 dark:bg-gray-300 transition duration-300"></div>
+                        </label>
+                    </div>
+                    <div class="navmenu hidden w-full flex-wrap justify-end items-center mb-16 space-y-8 p-6 border border-gray-100 rounded-3xl shadow-2xl shadow-gray-300/20 bg-white dark:bg-gray-800 lg:space-y-0 lg:p-0 lg:m-0 lg:flex md:flex-nowrap lg:bg-transparent lg:w-7/12 lg:shadow-none dark:shadow-none dark:border-gray-700 lg:border-0">
+                        <div class="text-gray-600 dark:text-gray-300 lg:pr-4">
+                            <ul class="space-y-6 tracking-wide font-medium text-base lg:text-sm lg:flex lg:space-y-0">
+                                <li>
+                                    <a href="#home" class="block md:px-4 transition hover:text-primary dark:hover:text-primaryLight">
+                                        <span>Home</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#services" class="block md:px-4 transition hover:text-primary dark:hover:text-primaryLight">
+                                        <span>Services</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#contactus" class="block md:px-4 transition hover:text-primary dark:hover:text-primaryLight">
+                                        <span>Career's</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#contactus" class="block md:px-4 transition hover:text-primary dark:hover:text-primaryLight">
+                                        <span>Contact Us</span>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+
+                        <div class="w-full space-y-2 border-primary/10 dark:border-gray-700 flex flex-col -ml-1 sm:flex-row lg:space-y-0 md:w-max lg:border-l">
+                            <a href="{% url 'signup' %}" class="relative flex h-9 ml-auto items-center justify-center sm:px-6 before:absolute before:inset-0 before:rounded-full focus:before:bg-sky-600/10 dark:focus:before:bg-sky-400/10 before:transition before:duration-300 hover:before:scale-105 active:duration-75 active:before:scale-95">
+                                <span class="relative text-sm font-semibold text-primary dark:text-white">Sign Up</span>
+                            </a>
+                            <a href="{% url 'Login' %}" class="relative flex h-9 ml-auto items-center justify-center sm:px-6 before:absolute before:inset-0 before:rounded-full before:bg-sky-600 dark:before:bg-sky-400 before:transition before:duration-300 hover:before:scale-105 active:duration-75 active:before:scale-95">
+                                <span class="relative text-sm font-semibold text-white dark:text-gray-900">Login</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+  
+    <main>
+        <div class="min-h-screen p-6 bg-gray-100 flex items-center justify-center pt-20">
+            <div class="container max-w-screen-lg mx-auto">
+                <div>
+                    <div class="bg-white rounded shadow-lg p-4 px-4 md:p-8 mb-6">
+                        <div class="grid gap-4 gap-y-2 text-sm grid-cols-1 lg:grid-cols-3">
+                            <div class="text-gray-600">
+                                <p class="font-medium text-lg">English Class Registration</p>
+                                <p>Please fill out all the fields.</p>
+                            </div>
+
+                            <div class="lg:col-span-2">
+                                <form action="{% url 'english-registration' %}" method="post">
+                                    {% csrf_token %}
+                                    <div class="grid gap-4 gap-y-2 text-sm grid-cols-1 md:grid-cols-5">
+                                        <div class="md:col-span-2">
+                                            <label for="first_name">First Name</label>
+                                            {{form.first_name}}
+                                        </div>
+
+                                        <div class="md:col-span-3">
+                                            <label for="last_name">Last Name</label>
+                                            {{form.last_name}}
+                                        </div>
+
+                                        <div class="md:col-span-5">
+                                            <label for="email">Email Address</label>
+                                            {{form.email}}
+                                        </div>
+
+                                        <div class="md:col-span-2">
+                                            <label for="phone_number">Phone Number</label>
+                                            {{form.phone_number}}
+                                        </div>
+
+                                        <div class="md:col-span-3">
+                                            <label for="preferred_time">Preferred Time</label>
+                                            {{form.preferred_time}}
+                                        </div>
+
+                                        <div class="md:col-span-5">
+                                            <label for="fluency_level">Fluency Level</label>
+                                            {{form.fluency_level}}
+                                        </div>
+
+                                        <!-- Other fields can be added or modified based on your needs -->
+
+                                        <div class="md:col-span-5 text-right">
+                                            <div class="inline-flex items-end">
+                                                <button class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded" type="submit">Submit</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+</body>
+
+    
+</body>
+</html>
