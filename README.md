@@ -39,7 +39,7 @@ To run All-Ed locally, follow these steps:
 1. Clone the repository:
 
     ```bash
-    git clone https://github.com/yourusername/all-ed.git
+        git clone https://github.com/Mdwaseel/All-Ed/
     ```
 
 2. Install dependencies:
