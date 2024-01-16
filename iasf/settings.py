@@ -24,7 +24,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = 'django-insecure-7vo3kv^($3qt8n%7e37!7=xii2=n$zi^&#+2hzhmq63hg8z_vf'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = False
+DEBUG = True
 
 
 ALLOWED_HOSTS = ['.vercel.app','now.sh','127.0.0.1','localhost']
@@ -80,13 +80,9 @@ WSGI_APPLICATION = 'iasf.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'railway',
-        'USER': 'postgres',
-        'PASSWORD': '6bE*EdB3F1*b*6Ba25cfB6-Geg4-E-AF',
-        'HOST': 'viaduct.proxy.rlwy.net',
-        'PORT': '41113',
-    }
+            'ENGINE': 'django.db.backends.sqlite3',
+            'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
+        }
 }
 
 # Password validation
