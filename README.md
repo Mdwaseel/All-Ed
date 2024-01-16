@@ -87,7 +87,7 @@ To access the admin panel, use the following credentials:
 
 ![Alt Text](Demo/tenth.png)
 
-![Alt Text](Demo/eleventh.png)
+![Alt Text](Demo/eleveth.png)
 
 
 
