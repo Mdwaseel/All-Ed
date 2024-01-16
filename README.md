@@ -56,12 +56,21 @@ To run All-Ed locally, follow these steps:
 
 4. Access All-Ed in your web browser at `http://localhost:8000`.
 
+
 ## Admin Credentials
 
 To access the admin panel, use the following credentials:
 
 - **Username:** mdwaseel
 - **Password:** 1234
+
+
+## Demo 
+
+![Alt Text](Demo/first.png)
+
+
+
 
 ## Contribution
 
