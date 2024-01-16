@@ -69,6 +69,26 @@ To access the admin panel, use the following credentials:
 
 ![Alt Text](Demo/first.png)
 
+![Alt Text](Demo/second.png)
+
+![Alt Text](Demo/third.png)
+
+![Alt Text](Demo/fourth.png)
+
+![Alt Text](Demo/fifth.png)
+
+![Alt Text](Demo/sixth.png)
+
+![Alt Text](Demo/seventh.png)
+
+![Alt Text](Demo/eigth.png)
+
+![Alt Text](Demo/nineth.png)
+
+![Alt Text](Demo/tenth.png)
+
+![Alt Text](Demo/eleventh.png)
+
 
 
 
